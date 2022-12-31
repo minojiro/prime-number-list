@@ -19,7 +19,7 @@ const primeNumbers = computed(() => {
 
 <template>
   <main>
-    <h1>素数</h1>
+    <h1>素数一覧</h1>
     <ul>
       <li v-for="number in primeNumbers">{{ number }}</li>
     </ul>
